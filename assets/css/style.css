@@ -79,18 +79,18 @@ main{
 }
 
 main section:first-of-type{
-    padding: 2% 10% 6% 10%;
+    padding: 2% 5% 6% 5%;
     border-bottom: 1px solid #666;
 }
 
 h4{
     font-size: 2rem;
-    padding: 5% 0 2% 0;
+    padding: 5% 0 5% 0;
 }
 
 main section:first-of-type article p{
-    font-size: 1.2rem;
-    padding-bottom: 5%;
+    font-size: 1.2em;
+    padding-bottom: 2%;
 }
 
 main section:first-of-type article:not(:first-of-type){
@@ -110,41 +110,40 @@ main section:first-of-type article img:hover{
 
         /* general formatting for all */
 main section:nth-of-type(2){
-    padding: 2% 10% 6% 10%;
-    border-bottom: 1px solid #666;
+    padding: 2% 0 6% 10%;
 }
 
 main section:nth-of-type(2) article{
-    width: 1000px;
+    width: 800px;
 }
 
-main section:nth-of-type(2) article p{
+main section:nth-of-type(2) article{
     text-align: center;
 }
 
-main section:nth-of-type(2) article p:nth-of-type(1){
+main section:nth-of-type(2) article div p:nth-of-type(1){
     color: #666;
 }
 
-main section:nth-of-type(2) article p:nth-of-type(2){
+main section:nth-of-type(2) article div p:nth-of-type(2){
     line-height: 300%;
 }
 
-main section:nth-of-type(2) article p:nth-of-type(2) a{
+main section:nth-of-type(2) article div p:nth-of-type(2) a{
     text-decoration: none;
     color: black;
-    font-size: 1.7em;
+    font-size: 1.3em;
     padding: 20% auto;
 }
 
-main section:nth-of-type(2) article p:nth-of-type(3){
+main section:nth-of-type(2) article div p:nth-of-type(3){
     color: #666;
 }
 
         /* end of general formatting */
 
 main section:nth-of-type(2) article div img{
-    width: 50vw;
+    width: 800px;
 }
 
 main section:nth-of-type(2) article:nth-of-type(1) div img:hover{
@@ -154,13 +153,21 @@ main section:nth-of-type(2) article:nth-of-type(1) div img:hover{
 
 /*  */
 main section:nth-of-type(2) article:nth-of-type(even){
-    padding: 15% 0  15% 38%;
-    text-align: right;
+    padding: 15% 0 15% 25%;
+    text-align: center;
+}
+main section:nth-of-type(2) article:nth-of-type(even) div img{
+    width: 800px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) div:nth-of-type(2){
+    padding: 0 0 0 40%;
 }
 
 /* main done */
 /* footer start */
 footer{
+    border-top: 1px solid #666;
     text-align: center;
 }
 
