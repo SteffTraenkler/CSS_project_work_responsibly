@@ -106,39 +106,55 @@ main section:first-of-type article img:hover{
 }
     /* section 1 of main done */
 
-    /* section 1 of main start */
+    /* section 2 of main start */
 
+        /* general formatting for all */
 main section:nth-of-type(2){
     padding: 2% 10% 6% 10%;
     border-bottom: 1px solid #666;
 }
 
-main section:nth-of-type(2) article:nth-of-type(1){
-    margin: 10vh;
-    width: 500px;
+main section:nth-of-type(2) article{
+    width: 1000px;
 }
 
-/* main section:nth-of-type(2) article:nth-of-type(1) a img{
-    height: 55vh;
+main section:nth-of-type(2) article p{
+    text-align: center;
+}
 
-} */
+main section:nth-of-type(2) article p:nth-of-type(1){
+    color: #666;
+}
 
-main section:nth-of-type(2) article:nth-of-type(1) a img:hover{
+main section:nth-of-type(2) article p:nth-of-type(2) a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(3){
+    color: #666;
+}
+
+        /* end of general formatting */
+
+main section:nth-of-type(2) article div img{
+    width: 50vw;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1) div img:hover{
     box-shadow: 0 0 40px #666;
 }
 
-main section:nth-of-type(2) article:nth-of-type(1) p{
-    text-align: center;
-}
+
 /*  */
 main section:nth-of-type(2) article:nth-of-type(2){
-    margin: 10vh;
+    margin: 55vh;
     text-align: right;
 }
 
-main section:nth-of-type(2) article:nth-of-type(2) a img{
+main section:nth-of-type(2) article:nth-of-type(2) a div{
     height: 55vh;
-
 }
 
 main section:nth-of-type(2) article:nth-of-type(2) a img:hover{
