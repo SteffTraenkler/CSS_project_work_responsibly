@@ -74,9 +74,9 @@ header p a::before{
 
     /* section 1 of main start */
 
-/* main{
+main{
     padding: 2% 10%;
-} */
+}
 
 main section:first-of-type{
     padding: 2% 10% 6% 10%;
